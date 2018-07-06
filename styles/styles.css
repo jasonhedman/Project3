@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  color: #384047;
+}
+
+.header-text{
+  color: #828282;
+  margin-bottom: 2em;
+}
+
+form {
+  margin: 0 auto;
+  padding: 10px 0px;
+  width:100%;
+  margin-top: 3px;
+  border-top: 2px solid #2D3B46;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #EFEFEF;
+  color: #8d8d8d;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+  font-style: italic;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  transition: background-color 0.5s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus{
+  background-color: transparent;
+}
+
+.select {
+  display: inline;
+  line-height: 3em;
+}
+
+select {
+  padding: 15px;
+  color: #8d8d8d;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+  width: 100%;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  padding-top: .75em;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+header,
+footer {
+  background-color: #2D3B46;
+  color: white;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  vertical-align: center;
+}
+
+.sign-up {
+  border-bottom: 5px solid #2D3B46;
+  text-align: center;
+}
+.sign-up h1{
+  color: #2D3B46;
+}
+
+main {
+  width:90%;
+  margin: 0 auto;
+}
+
+.contact,
+.options {
+  border-bottom: 2px solid #2D3B46;
+  padding: 0;
+}
+
+.options {
+  border: none;
+}
+
+.legend {
+  margin-top: 1em;
+}
+
+#title {
+  margin:0;
+}
+
+footer {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0;
+}
+
+input[type = "button"] {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #5DBCD2;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #5DBCD2;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+.container{
+  width: 100%;
+  background-color: #b4c3d0;
+}
+
+#footertext{
+  margin-top: 0px;
+}
+
+#subheader {
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+input::placeholder{
+  color:#8d8d8d;
+  font-style: italic;
+  text-align: right;
+}
+
+.options label {
+  margin-left: 1em;
+}
+
+@media screen and (min-width: 768px) {
+  .contact label {
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="tel"],
+  textarea,
+  select {
+    display: inline-block;
+    margin: 0;
+  }
+
+  main {
+    width: 60%;
+  }
+
+  .card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .card label {
+    margin-right: auto;
+    align-self: center;
+    width: 25%;
+  }
+
+  .card input,
+  .card select{
+    align-self: center;
+    width: 75%;
+  }
+
+  textarea {
+    margin-bottom: 1.5em;
+  }
+
+}
