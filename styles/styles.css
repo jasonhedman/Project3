@@ -182,6 +182,9 @@ input::placeholder{
   margin-left: 1em;
 }
 
+#zip-code{
+	width: 150px;
+}
 @media screen and (min-width: 768px) {
   .contact label {
     display: inline-block;
@@ -223,5 +226,7 @@ input::placeholder{
   textarea {
     margin-bottom: 1.5em;
   }
-
+	label[for = 'zip-code']{
+		margin-right: 0;
+	}
 }
